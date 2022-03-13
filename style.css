@@ -1,0 +1,130 @@
+body{
+padding: 0px;    margin: 0px;
+}#nav :hover{
+    color: rgb(20, 168, 0) ;
+}
+#nav{display: flex;
+    justify-content: space-around;
+list-style: none;
+border-bottom: 1px solid rgb(94, 109, 85);
+height: 40px;
+color:rgb(94, 109, 85);
+
+font-size: 20px;
+}
+#nav select{
+ border: none;   font-size: 15px;
+ color:rgb(94, 109, 85);
+}
+#main{
+    display: flex;
+    height: 88vh;
+}
+#main h1{
+    font-size: 62px;color: rgb(20, 168, 0);
+}
+#main button {
+   width: 140px;height: 40px;
+   border: 1px solid green;
+   border-radius: 20px;
+   font-weight: bold;
+}
+#dil{
+    display: flex;flex-wrap: wrap;
+    /* margin: 10px auto; */
+    justify-content: center;
+}#main1{padding-left: 30px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    
+}#btntalent{
+    background-color:rgb(20, 168, 0) ;color: white;
+}
+#btnwork{
+    color:rgb(20, 168, 0) ;
+}#btnsign:hover{
+    color: white;
+}
+#btnsign{
+    margin-top:-25px ;
+    width: 120px;height: 35px;
+    border: 1px solid green;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:rgb(20, 168, 0) ;color: white;
+
+}
+#main h2, #mainh4{
+    color:rgb(94, 109, 85);
+}#dil1{
+    width: 25%;
+
+}
+#dil2{
+    width: 40%;
+
+}#dil2 h1{
+   font-size: 35px;
+}#dil2 h3,#main h2{
+    margin-top: -15px;
+    color:rgb(94, 109, 85);
+ }
+ #dil2 a{
+     color:rgb(20, 168, 0) ;
+ }#man{
+    padding-left: 30px;
+    border-radius: 10px;
+    width: 95%;margin: 10px auto;height: 
+    100vh;
+     background-image: url("https://www.upwork.com/static/assets/Brontes/213896f5/img/find-talent-mobile.11b9e0a.jpg");
+ background-size: 100% ;
+    }
+    #man3{ padding-left: -20px !important;
+        display: flex;
+        justify-content: space-around;
+    }#man3 div{
+padding-left:20px ;
+        border-radius: 10px;background-color:rgb(20, 168, 0) ;
+width: 29%;
+    
+     }#job:hover {
+        background-color: white ;
+    color:rgb(20, 168, 0) ;   
+    }  
+    a:hover{
+        background-color: white ;
+        color:rgb(20, 168, 0) ;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #client{
+        margin-bottom: 100px;
+        margin: top 100px;
+        color:white;
+    }#talent{
+        font-size: 60px;color:white;
+    }
+    #work{
+        color:white;
+        font-size: large;
+margin-bottom: 35px;
+    }
+    table{width: 100%;
+        background-color: rgb(0, 30, 0);
+     margin-top: -10px;
+        color: white;
+    }
+    #foot{ width: 100%;
+        align-items: flex-start;
+        display: flex;list-style: none;
+     margin-top: -17px;
+        background-color: rgb(0, 30, 0);
+        color: white;
+    }
+    
+
+
+
